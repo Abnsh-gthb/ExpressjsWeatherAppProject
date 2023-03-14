@@ -1,12 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Piazzolla:wght@200;300;400;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
+@import url(""); */
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400&family=Tilt+Neon&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   /* font-family: "Roboto", sans-serif; */
-  font-family: "Piazzolla", serif;
+  font-family: 'Sora', sans-serif;
 }
 
 :root {
@@ -239,9 +241,16 @@ sup {
 
 /* 404 error page */
 
-.main_header_left .errimg img {
-  width: 60rem;
-  height: 30rem;
+.main_header {
+ margin-top: auto;
+}
+
+.img-fluid{
+  height: 40rem;
+}
+.err_pg_btn{
+  background-color: rgba(187, 236, 11, 0.553);
+  color: #0097e6;
 }
 
 /* footer style  */

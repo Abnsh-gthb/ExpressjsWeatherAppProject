@@ -13,13 +13,13 @@
 
         <div class="row">
             <div class="col-md-10 col-12 mx-auto ">
-                <div class=" main_header_left align-items-center">
+                <div class=" main_header_left align-items-center" style="justify-content: start;">
                     <figure class="errimg">
-                        <img src="images/404.png" alt="thapa" title="thapatechnical" class="img-fluid">
+                        <img src="images/404.webp" alt="thapa" title="thapatechnical" class="img-fluid">
                     </figure>
-                    <p>Welcome to Thapa Technical World</p>
+                    <p>Welcome to Popular Weather App</p>
                     <h1>{{errorMsg}}</h1>
-                    <a href="/"><button>Go Back</button></a>
+                    <a href="/"><button class="err_pg_btn">Go Back</button></a>
                 </div>
             </div>
 
@@ -30,11 +30,7 @@
 
     <!-- footer -->
 
-    <footer>
-        <p>
-            created with ❤ by thapa technical
-        </p>
-    </footer>
+    {{>footer}}
 </body>
 
 </html>

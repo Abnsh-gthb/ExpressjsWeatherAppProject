@@ -2,7 +2,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 const hbs = require('hbs');
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8000; //Dynamic port selection on clients machine
 
 const static_path = path.join(__dirname, "../public");
 const template_path = path.join(__dirname, "../templates/views");
@@ -31,7 +31,7 @@ app.get("/weather", (req,res) =>{
 
 app.get("*", (req,res) =>{
     res.render('404page', {
-        errorMsg : "Opps! page not found, Click Here to go back"
+        errorMsg : "Opps! Nothing is here. Click to go back"
     })
 })
 
