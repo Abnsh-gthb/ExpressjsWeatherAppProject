@@ -12,8 +12,8 @@
 }
 
 :root {
-  --main-bg: #1e272e;
-  --main-color: #0097e6;
+  --main-bg: #018b8d;
+  --main-color: #1a009afe;
 }
 
 html {
@@ -74,6 +74,13 @@ body {
     transform: rotate(360deg);
   }
 }
+
+/* homepage */
+.carsl-img{
+  height: 200px;
+  width: 200px;
+}
+
 
 /* main header part  */
 
@@ -141,8 +148,8 @@ body {
 .temp_form input[type="text"] {
   width: 100%;
   padding: 2rem 5rem 2rem 2rem;
-  background: #1e202b;
-  color: white;
+  background: rgba(86, 123, 243, 0.434);
+  color: rgb(81, 107, 237);
   outline: none;
   border: none;
   font-size: 1.7rem;
@@ -150,7 +157,7 @@ body {
 }
 
 ::placeholder {
-  color: #bfc1c8;
+  color: #8d96b7;
 }
 
 .temp_form input[type="submit"] {
@@ -177,7 +184,7 @@ body {
   width: 40rem;
   margin: auto;
   min-height: 20rem;
-  background-color: #323544;
+  background-color: rgba(86, 120, 243, 0.934);;
   border-radius: 1rem;
   padding: 1rem;
   font-family: "Roboto", sans-serif;
@@ -186,17 +193,18 @@ body {
 .top_layer {
   width: 100%;
   height: 20%;
-  background-color: #2d303d;
+  background-color: rgba(18, 241, 93, 0.434);;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   border-radius: 1rem;
   padding: 2rem 0;
 }
 
 .top_layer p {
-  color: #fff;
-  font-weight: 300;
+  color: #2a13f8;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .main_layer {
@@ -208,7 +216,7 @@ body {
 
 .main_layer #city_name {
   padding: 2rem 0;
-  color: #bfc1c8;
+  color: #1144fd;
   font-weight: 300;
   font-size: 2rem;
 }
@@ -266,7 +274,7 @@ footer p {
   margin: 0;
   text-align: center;
   line-height: 5rem;
-  color: #fff;
+  color: #f4f5faea;
   font-size: 1.4rem;
 }
 
