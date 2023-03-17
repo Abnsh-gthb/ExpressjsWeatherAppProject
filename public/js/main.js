@@ -1,6 +1,13 @@
+const navbarBrand = document.getElementById('weatheric');
+setInterval(() => {
+    navbarBrand.classList.add('weatheric');
+    setTimeout(() => {
+        navbarBrand.classList.remove('weatheric');
+    }, 2000);
+}, 15000);
+
 const cityName = document.getElementById('cityName');
 const submitBtn = document.getElementById('submitBtn');
-
 const city_name = document.getElementById('city_name');
 const temp_real_val = document.getElementById('temp_real_val');
 const temp_status = document.getElementById('temp_status');
